@@ -1,0 +1,14 @@
+.website__link {
+    color: #ffffff;
+    text-decoration-line: underline;
+  }
+  .website__link:hover {
+    transition: 1s ease-out;
+    opacity: 0.5;
+  }
+  @media screen and (max-width: 320px) {
+    .website__link {
+      padding-bottom: 32px;
+
+    }
+  }

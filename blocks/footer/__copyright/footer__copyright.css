@@ -1,0 +1,32 @@
+.footer__copyright {
+    max-width: 186px;
+    min-height: 16px;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    font-weight: normal;
+    margin: 0;
+    /* margin-left: 510px; */
+    padding-top: 2px;
+    padding-left: 533px;
+  }
+  @media screen and (max-width: 1024px){
+    .footer__copyright{
+      padding-left: 232px;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .footer__copyright {
+      padding-left: 24px;
+
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer__copyright {
+      min-height: 14px;
+      padding-top: 0;
+      padding-left: 16px;
+      text-align: left;
+    }
+  }

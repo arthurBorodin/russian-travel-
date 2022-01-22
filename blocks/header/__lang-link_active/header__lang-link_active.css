@@ -1,0 +1,21 @@
+.header__lang-link_active {
+    width: 30px;
+    height: 28px;
+    margin: 0;
+    padding-top: 18px;
+    padding-right: 18px;
+    padding-bottom: 6px;
+    font-size: 1.5em;
+    line-height: 1.75em;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #fff;
+  }
+@media screen and (max-width: 320px){
+  .header__lang-link_active {
+    width: 22px;
+    height: 20px;
+    font-size: 18px;
+    line-height: 20px;
+    }
+  }

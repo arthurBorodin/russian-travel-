@@ -1,0 +1,8 @@
+.place__container {
+    max-width: 484px;
+  }
+  @media screen and (max-width: 320px) {
+    .place__container {
+        padding-top: 32px;
+    }
+  }
